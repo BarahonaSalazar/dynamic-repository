@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--header-->
+    <header>
+        <h1 class="titulo_principal">Formulario Dinamico</h1>
+    </header>
+
+    <!--main-->
+    <main>
+        <form class="form" action="">
+                <!--Nombres-->
+                <div>
+                    <div>
+                        <label for="nombre">Nombres</label>
+                    </div>
+                    <input class="imput" type="text" name="nombre" id="" required placeholder="Primer nombre">
+                    <input class="imput" type="text" name="nombre" id="" required placeholder="Segundo Nombre">
+                </div>
+    
+                <!--Apellidos-->
+                <div>
+                    <div>
+                        <label for="apellido">Apellidos</label>
+                    </div>
+                    <input class="imput" type="text" name="apellido" id="" required placeholder="Primer apellido">
+                    <input class="imput" type="text" name="apellido" id="" required placeholder="Segundo apellido">
+                </div>
+    
+                <!--fecha de naciemineto y dirección-->
+                <div class="naciemineto_direccion">
+                    <div>
+                        <div>
+                            <label for="naciemineto">Fecha de nacimiento</label>
+                        </div>
+                        <input class="imput" type="date" name="naciemineto" id="" required placeholder="fecha">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="direccion">Dirección</label>
+                        </div>
+                        <input class="imput" type="text" name="direccion" id="" required placeholder="Escriba su dirección">
+                    </div>
+                </div>
+                <div class="contenedor_boton">
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+        </form>
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
